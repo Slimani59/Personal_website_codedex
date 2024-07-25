@@ -28,7 +28,14 @@
             <h2>Contact me</h2>
             <p></p>
             <br/>
-            <form action="">
+            <form action="" id="contact-form">
+                <label for="contact-name">Name : </label><input type="text" id="contact-name">
+                <br/><br/>
+                <label for="contact-email">Email : </label><input type="email" id="contact-email">
+                <br/><br/>
+                <label for="contact-message">Message : </label><textarea id="contact-message" rows="5" cols="30" placeholder="Write your message here!" required></textarea>
+                <br/><br/>
+                <label for="contact-submit"></label><input type="submit" id="contact-submit" value="Send">
             </form>
         </section>
     </main>
